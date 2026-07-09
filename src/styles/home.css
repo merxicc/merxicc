@@ -9,10 +9,10 @@
     width: 50px;
 }
 nav {
+    background: #21105D;
     overflow-x: hidden;
     display: flex;
     flex-direction: row;
-    position: relative;
     width: 100vw;
     ul {
         display: flex;
@@ -36,10 +36,10 @@ nav {
 }
 .article-one{
     display: flex;
-    width: 100vw;
+    width: 100%;
     align-items: center;
     justify-content: center;
-    margin-top: 4px;
+    margin-top: 10px;
     .gif-home {
         width: calc(95vw - 3px);
         border-radius: 3px;
