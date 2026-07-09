@@ -80,9 +80,14 @@ nav {
         margin: 10px auto;
         width: calc(50% - 25px);
         position: relative;
-        background-color: #28166D;
-        box-shadow: 0 0 4px 4px rgba(0,0,0,0.3);
+        background-color: #21105D;
+        box-shadow: 0 0 2px 2px rgba(0,0,0,0.2);
         border-radius:4px ;
+    }
+    .box:hover {
+        background-color: #402D9D;
+        transition: all 0.1s ease;
+        transform: scale(1.05);
     }
 }
 @media (min-width: 1024px) {
