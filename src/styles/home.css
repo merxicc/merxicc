@@ -1,0 +1,107 @@
+.title-logo {
+    color:  #ffffff;
+    font-family: "Montenegrin Gothic One", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 3px 5px;
+}
+.picture-logo {
+    width: 50px;
+}
+nav {
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100vw;
+    ul {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: 13px;
+        left: 80px;
+    }
+    ul li {
+        list-style: none;
+    }
+    ul li a {
+        outline: none;
+        text-decoration: none;
+        color: white;
+        margin-right: 21px;
+    }
+    ul li a i {
+        font-size: 20px;
+    }
+}
+.article-one{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4px;
+    .gif-home {
+        width: calc(95vw - 3px);
+        border-radius: 3px;
+    }
+}
+.quote{
+    opacity: 0.9;
+    margin-top: 20px;
+    margin-left: 20px;
+    .quote-home{
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 350;
+    span:nth-child(1) {
+        text-decoration: underline;
+    }
+    span:nth-child(2){
+        opacity: 0.5;
+    }
+    span:nth-child(3){
+        opacity: 0.5;
+        color: red;
+        text-decoration: underline;
+    }
+  }
+}
+.article-two {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    i {
+    position: relative;
+    right: -133px;
+    top: 10px;
+    font-size: 24px;
+}
+    .box {
+        margin: 10px auto;
+        width: calc(50% - 25px);
+        position: relative;
+        background-color: #28166D;
+        box-shadow: 0 0 4px 4px rgba(0,0,0,0.3);
+        border-radius:4px ;
+    }
+}
+@media (min-width: 1024px) {
+    nav {
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 50px;
+    }
+    nav ul {
+        left: 0;
+        top: 0;
+    }
+    
+    .article-two .box {
+        width: calc(25% - 20px);
+        margin: 10px;
+    }
+    .article-two {
+        justify-content: center;
+        padding: 0 40px;
+    }
+}

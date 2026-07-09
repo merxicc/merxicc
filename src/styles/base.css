@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #14063d;
+}
+.box-title {
+    color: white;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+.quote-box{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin: 10px 10px;
+}
+i {
+    color: white;
+}
