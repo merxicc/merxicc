@@ -100,13 +100,17 @@ nav {
         justify-content: center;
     }
 
+    nav {
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 50px;
+    }
     nav ul {
-        left: auto;
-        right: 40px;
-        top: 13px;
+        left: 0;
+        top: 0;
     }
     .article-one .gif-home {
-     width: auto;
+     width: 95%;
      max-height: 450px;  
      object-fit: contain;
     }
