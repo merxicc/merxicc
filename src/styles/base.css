@@ -10,13 +10,13 @@ body {
 }
 .box-title {
     color: white;
-    margin-top: 7px;
+    margin-top: 25px;
     margin-left: 10px;
 }
 .quote-box{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     margin: 10px 10px;
 }
 i {
