@@ -1,1 +1,1 @@
-alert("⚠️ This website is currently under development. Some features may be unavailable or not fully compatible with your device.");
+alert("Notice: This portfolio is under active development. Some pages, features, and layouts may not yet be optimized for all devices or browsers.");
