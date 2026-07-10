@@ -1,1 +1,1 @@
-alert("hindi pa ngani tapos")
+alert("⚠️ This website is currently under development. Some features may be unavailable or not fully compatible with your device.");
